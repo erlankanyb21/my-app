@@ -1,0 +1,44 @@
+.projects {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1rem;
+	list-style: none;
+  }
+  
+  .project {
+	position: relative;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project__img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 0.3s ease;
+  }
+  
+  .project__title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+  }
+  
+  .project:hover .project__img {
+	transform: scale(1.1);
+  }
+  
+  .project:hover .project__title {
+	opacity: 1;
+  }
+  

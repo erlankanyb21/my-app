@@ -1,0 +1,220 @@
+* Set up a CSS variable for the primary color used throughout the site */:root {
+  --primary-color: #e91e63;
+}
+
+/* Style the hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+
+}
+
+.hero .btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+  background-color: #b0003a;
+  cursor: pointer;
+}
+
+.hero .btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--primary-color);
+}
+
+.hero .btn:active {
+  transform: translateY(2px);
+}
+
+/* Style the features section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+.featured {
+  font-family: 'Times New Roman', Times, serif;
+}
+.featured h3 {
+  color: black;
+}
+
+.featured h2 {
+  color: black;
+  text-size-adjust: 30px;
+}
+
+.featured p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
+.features .feature {
+  flex-basis: calc(33.33% - 2rem);
+  text-align: center;
+}
+
+.features .feature h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+}
+
+.features .feature p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.features .feature .btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.features .feature .btn:hover {
+  background-color: #b0003a;
+  cursor: pointer;
+}
+
+.features .feature .btn:focus {
+  outline: palegreen;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--primary-color);
+}
+
+.features .feature .btn:active {
+  transform: translateY(2px);
+}
+
+/* Style the CTA section */
+.cta {
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+  text-align: center;
+
+}
+
+.cta h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.cta p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.cta .btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #b0003a;
+  letter-spacing: 2px;
+  transition: 1.4s ease;
+}
+
+.cta .btn:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  color: rgb(11, 137, 137);
+}
+
+.cta {
+  background-image: url("\/src/img/header.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.cta p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+.about h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 2.5rem; 
+}
+.about p {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.0rem; 
+}
+
+.about img {
+  border-radius: 5%; 
+}
+.about p{
+  color: #000;
+}
+
+.service h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.5rem; 
+}
+.service img {
+  border-radius: 5%;
+}

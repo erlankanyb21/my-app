@@ -1,0 +1,72 @@
+.container-contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: medium;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.map-container {
+    margin-top: 50px;
+}
+
+.form-container {
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-label {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    opacity: 70%;
+}
+
+.form-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(184, 239, 19, 0.3);
+}
